@@ -1,0 +1,155 @@
+*
+{
+    margin: 0%;padding: 0%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul
+{
+    
+    display: flex;
+    justify-content:space-between;
+    width: 40%;
+    align-items: center;
+}
+nav ul li{
+    background-color: white;
+    list-style-type: none;
+    cursor: pointer;
+}
+nav ul li:hover{
+    color: orangered;
+}
+li button{
+    background-color: orangered;
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* icon section part */
+.first-sec{
+    margin-left: 60px;
+    margin-top: 170px;
+    text-align: justify;
+}
+.first-sec h1{
+    font-size: 95px;
+    display: flex;
+    justify-content: center;
+}
+div.subdiv-1,div.subdiv-2,div.subdiv-3,div.subdiv-4
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.subdiv-1 ul li,.subdiv-2 ul li,.subdiv-3 ul li,.subdiv-4 ul li
+{
+    list-style-type: none;
+}
+.main-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* mid-sec part */
+.sec-sec img{
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 400ms;
+    box-shadow: 4px 7px 7px 0px #00000042;
+}
+.sec-sec div img:hover{
+    filter: none;
+    transform: scale(1.03);
+}
+
+/* music section part */
+.column-1 img,.column-2 img,.column-3 img,.column-4 img{
+    float: left;
+    width: 250px;
+    padding: 10px;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 50px;
+    cursor: pointer;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    transition: 400ms;
+}
+.row div img:hover{
+    filter: none;
+    transform: scale(1.03);
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+/* section-3 part */
+div .btn-1 button{
+    background-color: rgb(200, 198, 198);
+    color: rgb(11, 11, 11);
+    background-color: none;
+    padding: 6px;
+    border-radius: 10px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.section-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* section-4 part */
+p{
+    font-size: 25px;
+    height: 50px;
+    width: auto;
+}
+.section-4 p{
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.section-4 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-sec-1 img,.div-sec-2 img,.div-sec-3 img,.div-sec-4 img,.div-sec-5 img,.div-sec-6 img{
+    float: left;
+    width: 180px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 50px;
+    cursor: pointer;
+}    
+
+/* section-5 */
+.sec-1 img,.sec-2 img,.sec-3 img{
+    float: left;
+    width: 180px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 0px;
+    cursor: pointer;
+}
+.section-5 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+        
